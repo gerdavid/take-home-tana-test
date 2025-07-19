@@ -105,4 +105,27 @@ Given an array of product names (strings), return the first product that is **no
 javac Question4_UniqueProductPicker.java
 java Question4_UniqueProductPicker
 ```
+# Question 5: nearest minimun gap
+
+This Java program finds the **minimum distance** between any two occurrences of the **smallest value** in a given array of integers.
+
+### ✅ Problem Statement
+
+You are given an array of `n` integers. Find the **distance between the two closest minimum values** in the array.
+
+**Constraints:**
+- The minimum value is guaranteed to appear **at least twice**.
+
+### 🧪 Example
+
+**Input:** `[1, 2, 3, 1, 4, 5, 2]`  
+**Output:** `3`  
+Explanation: The smallest value is `1`, which appears at indices 0 and 3 → distance = `3 - 0 = 3`.
+
+**Input:** `[9, 8, 7, 6, 5, 4, 5, 4]`  
+**Output:** `2`  
+Explanation: The smallest value is `4`, which appears at
+
+
+
 
