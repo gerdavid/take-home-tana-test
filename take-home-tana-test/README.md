@@ -77,5 +77,32 @@ This Java program determines whether a given array of positive integers can be t
 ```bash
 javac Question3_ZeroReducer.java
 java Question3_ZeroReducer
+```
+# Question 4: First Unique Product (Java)
 
+This Java program finds the **first product** in a list that appears **only once**. If all products are repeated, it returns `null`.
+
+### ✅ Problem Description
+
+Given an array of product names (strings), return the first product that is **non-repeating**.
+
+### 🧪 Example
+
+**Input:** `["Apple", "Computer", "Apple", "Bag"]`  
+**Output:** `"Computer"`
+
+**Input:** `["Pen", "Pen", "Book", "Book"]`  
+**Output:** `null`
+
+### 🧠 Approach
+
+- Uses a `LinkedHashMap` to count frequencies while maintaining insertion order.
+- Iterates to find the first entry with count `1`.
+
+### 🚀 How to Run
+
+```bash
+javac Question4_UniqueProductPicker.java
+java Question4_UniqueProductPicker
+```
 
