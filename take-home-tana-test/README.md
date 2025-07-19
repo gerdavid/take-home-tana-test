@@ -53,3 +53,29 @@ Target: `10`
 ```bash
 javac Question2_UniqueSumCombinations.java
 java Question2_UniqueSumCombinations
+```
+# Question 3: Zero Array Reducer (Java)
+
+This Java program determines whether a given array of positive integers can be transformed into an array where all elements **except the first** are zero, using the following operation any number of times:
+
+### ✅ Problem Rules
+- Each element must remain non-negative during the transformation.
+- The operation can be applied multiple times on any valid index.
+
+### 🧪 Example
+
+**Input:** `[1, 2, 3]`  
+**Output:** `1` (possible)  
+**Steps:**
+- [1,2,3] → [1,2,1] → [1,1,1] → [1,1,0] → [1,0,0]
+
+**Input:** `[5, 4, 3]`  
+**Output:** `0` (not possible)
+
+### 🚀 How to Run
+
+```bash
+javac Question3_ZeroReducer.java
+java Question3_ZeroReducer
+
+
