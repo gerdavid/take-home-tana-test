@@ -1,4 +1,4 @@
-# All question compiled with java 17
+# All questions compiled with java 17
 
 # Question 1: Longest Valid String Finder (Java)
 
@@ -124,8 +124,61 @@ Explanation: The smallest value is `1`, which appears at indices 0 and 3 → dis
 
 **Input:** `[9, 8, 7, 6, 5, 4, 5, 4]`  
 **Output:** `2`  
-Explanation: The smallest value is `4`, which appears at
+Explanation: The smallest value is `4`, which appears at indices 5 and 7 → distance = `2`.
 
+### 🧠 Approach
 
+- Find the **minimum value** in the array.
+- Track the **indices** of all occurrences of that value.
+- Compute the **smallest difference** between any two consecutive indices.
 
+### 🚀 How to Run
+
+```bash
+javac Question5_NearestMinGap.java
+java Question5_NearestMinGap
+```
+# Question 6: Top 3 Most Common Words in a Sentence
+
+This Java program takes a sentence and returns the **three most common words** sorted **alphabetically**.
+
+### Example
+**Input:**  
+"hi there care to discuss algorithm basis or how to solve algorithm or"
+
+**Output:**  
+`["algorithm", "or", "to"]`
+
+### How It Works
+1. Splits the sentence into words.
+2. Counts word frequencies.
+3. Uses a priority queue to sort by frequency and alphabet.
+4. Returns the top 3, sorted alphabetically.
+
+### Run
+```bash
+javac Question6_TopThreeWordsFinder.java
+java Question6_TopThreeWordsFinder
+```
+# Question 7: Rotate Linked List Right by N
+
+This Java program rotates a singly linked list to the right by `n` positions.
+
+### Example
+Input:  
+`ID_A01 -> ID_A02 -> ID_A03 -> ID_A04 -> ID_A05 -> ID_A06 -> null`, `n = 2`
+
+Output:  
+`ID_A05 -> ID_A06 -> ID_A01 -> ID_A02 -> ID_A03 -> ID_A04 -> null`
+
+### How It Works
+1. Measure the list length.
+2. Connect tail to head (make circular).
+3. Break the circle at the right spot to form the rotated list.
+
+### Run
+```bash
+javac Question7_LinkedListRotator.java
+java Question7_LinkedListRotator
+```
 
